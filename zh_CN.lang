@@ -1,0 +1,82 @@
+#en_US
+
+# Creative Tab
+itemGroup.thaumicinfusion=神秘注魔
+
+# Blocks
+tile.local_infusionCore.name=注魔核心
+tile.local_essentia.name=要素方块
+tile.local_inscriber.name=记录器方块
+
+key.infusedBlock.infused=注魔
+key.essentiaBlock.brick=砖
+key.essentiaBlock.chiseled=雕琢
+
+
+# Item
+
+item.FocusInfusion.name=法杖核心:注魔
+
+# Research
+tc.research_category.THAUMICINFUSION=神秘注魔
+tc.research_name.FOCUSINFUSION=注魔核心
+tc.research_text.FOCUSINFUSION=让要素得以注入世界的法杖核心
+tc.research_page.FOCUSINFUSION.1=无数个日夜的研究后，你终于解锁了神秘学中关于最耗能注魔方式的知识。这种核心让你拥有了将要素注入这个世界的能力，要素可与方块共存一处，并赋予方块特殊的能力。具体的效果种类取决于要素的种类。
+tc.research_page.FOCUSINFUSION.2=要正确的使用这种法杖核心，你必须先用其潜行单击你想使用的要素的罐子。在此之后，你可以右键单击方块将要素注入其中。多种要素可共存一处，不过若是它们发生冲突，此处的方块就会被腐化成陈年污点。潜行单击方块，其所处空间的要素都将被泯灭。
+
+tc.research_name.ESSENTIABLOCKS=要素方块
+tc.research_text.ESSENTIABLOCKS=块状储存要素
+tc.research_page.ESSENTIABLOCKS.1=简单地将要素凝结为块
+
+tc.research_name.ASPECTEFFECTS=要素效果
+tc.research_text.ASPECTEFFECTS=被注入要素的影响
+
+ti.cost=花费
+
+# Commands
+
+ban.infusion=banblock
+ban.infusion.usage=/banblock Toggles the block in hands ban status
+
+clean.data=cleandata
+clean.data.usage=/cleandata Only run this command when TI blocks are crashing the world, this will remove every TI block in the current dimension. You have been warned!
+
+# Effects Description
+ti.effect_info.EXANIMIS=若玩家死在这方块上，这里将被设置为重生点
+ti.effect_info.FABRICO=用要素安瓿右击此方块将会为其染上要素的颜色
+ti.effect_info.LUX=此方块会像火把一样发光
+ti.effect_info.SANO=站在此方块上，玩家的生命值会依照饥饿值来恢复
+ti.effect_info.PANNUS=掉落于此方块上将不会有掉落伤害
+ti.effect_info.COGNITIO=此方块将被视为书架
+ti.effect_info.ITER=右击链接两个这种方块，将会使它们之间实现远程传输
+ti.effect_info.ALIENIS=站在此方块上，会进行随机瞬移，真是个奇怪的效果
+ti.effect_info.TEMPESTAS=在暴雨中，光线将被这个方块吸引
+ti.effect_info.VOLATUS=玩家可在此方块上方飞行，若在其上或下方有更多的方块，其高度增加一倍
+ti.effect_info.SPIRITUS=此方块看起来是固体，不过没有碰撞箱，因此实体可以如鬼魂般穿过去
+ti.effect_info.TERRA=此方块将会像沙砾一般受重力影响
+ti.effect_info.FAMES==此方块会吞噬人体的能量并使其感到饥饿
+ti.effect_info.BESTIA=怪物将不会生成于此方块之上
+ti.effect_info.VITIUM=此方块将阻止附近的方块腐化
+ti.effect_info.MESSIS=此方块能像耕地一样种植作物
+ti.effect_info.MOTUS=实体将被推向它放置的方向
+ti.effect_info.IGNIS=方块能像地狱岩一样拥有永不熄灭的火焰
+ti.effect_info.PERDITIO=此方块变得易爆，小心使用
+ti.effect_info.TUTAMEN=此方块拥有更高的硬度和爆炸抗性
+ti.effect_info.VINCULUM=怪物将陷于此方块上
+ti.effect_info.PERMUTATIO=右击链接两个这种方块，将会在被红石信号激活的时候使它们之间实现远程传输
+ti.effect_info.LUCRUM=此方块会慢慢吸近物品
+ti.effect_info.MORTUUS=晚上，怪物更容易诞生于此方块上
+ti.effect_info.VICTUS=白天，动物更容易诞生于此方块上
+ti.effect_info.PRAECANTATIO=没什么用，不过很好看
+ti.effect_info.VITREUS=光线将穿过此方块
+ti.effect_info.VENENUM=站在此方块上的玩家会中毒
+ti.effect_info.PERFODIO=此方块的硬度和爆炸抗性减半
+ti.effect_info.AER=站在此方块上的玩家将会获得跳跃提升
+ti.effect_info.MACHINA=右击链接两个这种方块，将会使它们之间实现远程传输红石信号
+ti.effect_info.POTENTIA=此方块将发出强红石信号
+ti.effect_info.HUMANUS=此方块是简化版的守护方块
+ti.effect_info.ORDO=此方块会为附近的奥术注魔增加稳定性
+
+
+#Mod Effects
+ti.effect_info.INFERNUS=设置为任何接触这个方块的实体都将着火。
