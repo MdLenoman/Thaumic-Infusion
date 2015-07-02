@@ -5,13 +5,17 @@ itemGroup.thaumicinfusion=神秘注魔
 
 # Blocks
 tile.local_infusionCore.name=注魔核心
-tile.local_essentia.name=要素方块
-tile.local_inscriber.name=记录器方块
+tile.local_infused.default=Наполненный блок
+tile.local_infused.aqua=Наполненный блок
+tile.local_infused.gelum=Наполненный блок
+tile.local_infused.limus=Наполненный блок
+tile.local_infused.sensus=Наполненный блок
+tile.local_infused.spiritus=Наполненный блок
 
+tile.local_essentia.name=要素方块
 key.infusedBlock.infused=注魔
 key.essentiaBlock.brick=砖
 key.essentiaBlock.chiseled=雕琢
-
 
 # Item
 
