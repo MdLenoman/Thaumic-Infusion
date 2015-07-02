@@ -5,17 +5,13 @@ itemGroup.thaumicinfusion=神秘注魔
 
 # Blocks
 tile.local_infusionCore.name=注魔核心
-tile.local_infused.default=Наполненный блок
-tile.local_infused.aqua=Наполненный блок
-tile.local_infused.gelum=Наполненный блок
-tile.local_infused.limus=Наполненный блок
-tile.local_infused.sensus=Наполненный блок
-tile.local_infused.spiritus=Наполненный блок
-
 tile.local_essentia.name=要素方块
+tile.local_inscriber.name=记录器方块
+
 key.infusedBlock.infused=注魔
 key.essentiaBlock.brick=砖
 key.essentiaBlock.chiseled=雕琢
+
 
 # Item
 
@@ -35,6 +31,8 @@ tc.research_page.ESSENTIABLOCKS.1=简单地将要素凝结为块
 tc.research_name.ASPECTEFFECTS=要素效果
 tc.research_text.ASPECTEFFECTS=被注入要素的影响
 
+ti.cost=花费
+
 # Commands
 
 ban.infusion=banblock
@@ -44,8 +42,6 @@ clean.data=cleandata
 clean.data.usage=/cleandata Only run this command when TI blocks are crashing the world, this will remove every TI block in the current dimension. You have been warned!
 
 # Effects Description
-ti.effect_info.VACUOS=Блок становится замаскированным инвентарём
-ti.effect_info.AQUA=Блок становится замаскированным источником воды
 ti.effect_info.EXANIMIS=若玩家死在这方块上，这里将被设置为重生点
 ti.effect_info.FABRICO=用要素安瓿右击此方块将会为其染上要素的颜色
 ti.effect_info.LUX=此方块会像火把一样发光
@@ -80,3 +76,7 @@ ti.effect_info.MACHINA=右击链接两个这种方块，将会使它们之间实
 ti.effect_info.POTENTIA=此方块将发出强红石信号
 ti.effect_info.HUMANUS=此方块是简化版的守护方块
 ti.effect_info.ORDO=此方块会为附近的奥术注魔增加稳定性
+
+
+#Mod Effects
+ti.effect_info.INFERNUS=设置为任何接触这个方块的实体都将着火。
